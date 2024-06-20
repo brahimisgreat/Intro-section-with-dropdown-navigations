@@ -1,0 +1,15 @@
+nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 224px;
+
+  h1 {
+    color: var(--Black, #151515);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px; /* 100% */
+    letter-spacing: -0.486px;
+  }
+}

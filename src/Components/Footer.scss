@@ -1,0 +1,26 @@
+footer {
+  width: 343px;
+  height: 26px;
+  display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+  #data {
+    width: 81.251px;
+    height: 14.362px;
+  }
+  #audio {
+    width: 52.867px;
+    height: 26px;
+  }
+
+  #meet {
+    width: 64.138px;
+    height: 14.362px;
+  }
+
+  #maker {
+    width: 58.896px;
+    height: 17.235px;
+  }
+}
