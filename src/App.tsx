@@ -3,6 +3,7 @@ import { Footer } from "./Components/Footer";
 import { Hero } from "./Components/Hero";
 import { Navigation } from "./Components/Navigation";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
 
 
 

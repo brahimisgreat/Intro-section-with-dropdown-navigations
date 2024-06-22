@@ -13,3 +13,36 @@ nav {
     letter-spacing: -0.486px;
   }
 }
+.navlinks {
+  display: flex;
+  justify-content: center;
+}
+.navButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  button {
+    background-color: transparent;
+    width: 195px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    border: 1.5px solid var(--Medium-Grey, #686868);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    gap: 0;
+    flex-direction: column;
+  }
+  .navlinks {
+    gap: 20px;
+  }
+  .navButtons {
+    flex-direction: row;
+    gap: 20px;
+  }
+  
+}

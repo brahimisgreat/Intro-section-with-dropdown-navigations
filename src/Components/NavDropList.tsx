@@ -12,20 +12,20 @@ import './NavDropList.scss'
 export const NavDropList = () => {
   return (
     
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" >
     <Container>
         <Nav className="droppy me-auto">
-          <NavDropdown title="Features" id="basic-nav-dropdown">
-            <NavDropdown.Item  className='drop' href="#action/3.1"><img src={todo}/> Todo List</NavDropdown.Item>
-            <NavDropdown.Item  className='drop' href="#action/3.1"><img src={calender}/> Calender</NavDropdown.Item>
-            <NavDropdown.Item  className='drop' href="#action/3.1"><img src={reminder}/> Reminders</NavDropdown.Item>
-            <NavDropdown.Item  className='drop' href="#action/3.1"><img src={plan}/> About</NavDropdown.Item>
+          <NavDropdown title="Features" id="basic-nav-dropdown" className='drip'>
+            <NavDropdown.Item  className='ms-2' href="#action/3.1"><img src={todo}/> Todo List</NavDropdown.Item>
+            <NavDropdown.Item  className='ms-2' href="#action/3.1"><img src={calender}/> Calender</NavDropdown.Item>
+            <NavDropdown.Item  className='ms-2' href="#action/3.1"><img src={reminder}/> Reminders</NavDropdown.Item>
+            <NavDropdown.Item  className='ms-2' href="#action/3.1"><img src={plan}/> About</NavDropdown.Item>
           </NavDropdown>
 
           <NavDropdown title="Company" id="basic-nav-dropdown">
-           <Nav.Link href="#home">History</Nav.Link>
-           <Nav.Link href="#home">Our Team</Nav.Link>
-           <Nav.Link href="#home">Blog</Nav.Link>
+           <Nav.Link href="#home"  className='ms-4'>History</Nav.Link>
+           <Nav.Link href="#home"  className='ms-4'>Our Team</Nav.Link>
+           <Nav.Link href="#home"  className='ms-4'>Blog</Nav.Link>
           </NavDropdown>
           <Nav.Link href="#home">Careers</Nav.Link>
           <Nav.Link href="#link">About</Nav.Link>
